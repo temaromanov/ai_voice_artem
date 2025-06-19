@@ -1,0 +1,21 @@
+{
+  "output_path": "output_dir/",
+  "datasets": [
+    {
+      "formatter": "xtts",
+      "dataset_path": "./my-dataset",
+      "language": "ru"
+    }
+  ],
+  "model": "xtts_v2",
+  "run_name": "xtts_finetune_russian",
+  "num_loader_workers": 2,
+  "batch_size": 16,
+  "eval_batch_size": 8,
+  "num_epochs": 100,
+  "save_step": 500,
+  "print_step": 25,
+  "eval_step": 250,
+  "lr": 0.0001,
+  "optimizer": "adam"
+}
